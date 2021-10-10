@@ -1,9 +1,16 @@
 <template>
-    <h1>Hello !!!</h1>
+    <div>
+        <CardPreview />
+    </div>
 </template>
 
 <script>
+import CardPreview from "@/components/CardPreview/CardPreview.vue";
+
 export default {
-    name: "App"
+    name: "App",
+    components: {
+        CardPreview
+    }
 }
 </script>
