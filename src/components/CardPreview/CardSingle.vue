@@ -1,5 +1,5 @@
 <template>
-    <article class="card-single"
+    <div class="card-single"
         :class="'card-single--' + cardType"
     >
         <div class="card-single__icons-wrapper">
@@ -16,16 +16,16 @@
             >
         </div>
 
-        <h2 class="card-single__title">
+        <h1 class="card-single__title">
             <slot name="cardTitle"></slot>
-        </h2>
+        </h1>
 
         <p class="card-single__text">
             <slot name="cardText"></slot>
         </p>
 
         <ButtonText :button-type="cardType">Learn More</ButtonText>
-    </article>
+    </div>
 </template>
 
 <script>
