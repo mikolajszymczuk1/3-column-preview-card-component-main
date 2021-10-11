@@ -16,9 +16,9 @@
             >
         </div>
 
-        <h1 class="card-single__title">
+        <h2 class="card-single__title">
             <slot name="cardTitle"></slot>
-        </h1>
+        </h2>
 
         <p class="card-single__text">
             <slot name="cardText"></slot>

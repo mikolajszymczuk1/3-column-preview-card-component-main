@@ -1,5 +1,5 @@
 <template>
-    <section class="card-preview">
+    <section class="card-preview" aria-label="card-preview-component">
         <CardSingle card-type="sedans">
             <template #cardTitle>
                 SEDANS
