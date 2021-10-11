@@ -7,11 +7,11 @@
                 v-if="cardType === 'sedans'"
             >
 
-            <img class="card-single__car-icon" src="@/assets/svg/icon-suvs.svg" alt="sedans" title="sedans"
+            <img class="card-single__car-icon" src="@/assets/svg/icon-suvs.svg" alt="suvs" title="suvs"
                 v-else-if="cardType === 'suvs'"
             >
 
-            <img class="card-single__car-icon" src="@/assets/svg/icon-luxury.svg" alt="sedans" title="sedans"
+            <img class="card-single__car-icon" src="@/assets/svg/icon-luxury.svg" alt="luxury" title="luxury"
                 v-else
             >
         </div>
