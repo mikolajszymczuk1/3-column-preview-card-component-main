@@ -1,3 +1,6 @@
+// Utilities
+@use "./colors";
+
 *,
 *::before,
 *::after {
@@ -5,4 +8,8 @@
     margin: 0;
 
     box-sizing: border-box;
+}
+
+body {
+    background-color: colors.$Very-light-gray;
 }
