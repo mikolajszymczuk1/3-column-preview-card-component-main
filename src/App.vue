@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <main class="main-container">
         <CardPreview />
-    </div>
+    </main>
 </template>
 
 <script>
@@ -14,3 +14,15 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+.main-container {
+    @media screen and (min-width: 1440px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        height: 100vh;
+    }
+}
+</style>

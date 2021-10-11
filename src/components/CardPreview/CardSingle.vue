@@ -89,6 +89,14 @@ export default {
         line-height: 25px;
         font-family: fonts.$lexend-deca;
         color: colors.$Transparent-white;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 60px;
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 78px;
+        }
     }
 }
 </style>

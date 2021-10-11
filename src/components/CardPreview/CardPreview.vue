@@ -51,6 +51,28 @@ export default {
 
 <style lang="scss" scoped>
 .card-preview {
+    @media screen and (min-width: 375px) {
+        margin: 90px auto;
+    
+        width: 87%;
 
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 60%;
+    }
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: center;
+
+        width: 80%;
+    }
+
+    @media screen and (min-width: 1440px) {
+        width: 920px;
+    }
 }
 </style>
