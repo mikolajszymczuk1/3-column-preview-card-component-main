@@ -8,6 +8,8 @@ module.exports = {
                 title: "Frontend Mentor | 3-column preview card component",
                 template: "public/index.html",
                 minify: {
+                    removeComments: true,
+                    collapseWhitespace: true,
                     removeScriptTypeAttributes: true,
                 }
             })
