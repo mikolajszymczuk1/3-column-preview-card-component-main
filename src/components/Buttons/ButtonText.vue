@@ -27,15 +27,23 @@ export default {
 
 <style lang="scss" scoped>
 .button-text {
-    padding: 15px 30px;
+    padding: 13px 28px;
 
     background-color: colors.$Very-light-gray;
     border-radius: 25px;
+    border: solid 2px colors.$Very-light-gray;
+    transition: background-color 150ms ease-out;
+    cursor: pointer;
 
     font-size: 0.95em;
     outline: none;
-    border: 0;
     font-family: fonts.$lexend-deca;
+
+    &:hover {
+        background-color: transparent;
+
+        color: colors.$Very-light-gray;
+    }
 
     &--sedans {
         color: colors.$Bright-orange;
