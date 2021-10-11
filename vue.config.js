@@ -6,7 +6,10 @@ module.exports = {
         plugins: [
             new HtmlWebpackPlugin({
                 title: "Frontend Mentor | 3-column preview card component",
-                template: "public/index.html"
+                template: "public/index.html",
+                minify: {
+                    removeScriptTypeAttributes: true,
+                }
             })
         ],
         resolve: {
